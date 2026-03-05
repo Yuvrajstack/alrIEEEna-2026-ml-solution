@@ -109,18 +109,42 @@ Model performance was evaluated using **F1 Score and Accuracy on cross-validatio
 
 
 ## Conclusion 
-**LightGBM** model performed well on this dataset due to its its fast and efficient approach in tabular numerical data, also used Stratified 5 fold for class balancing and finally we tuned the thresold for getting the max F1 score. We tested various different models **logistic Regression(0.74)** , **XGB Classifier (97.4)** but **lightGBM** was best among these.
+  **LightGBM** model performed well on this dataset due to its its fast and efficient approach in tabular numerical data,        also used Stratified 5 fold for class balancing and finally we tuned the thresold for getting the max F1 score. We           tested various different models **logistic Regression(0.74)** , **XGB Classifier (97.4)** but **lightGBM** was best          among these.
 
 
 # Setup and Usage Instructions
 
 ### Clone the repository
-  '''bash 
+  ```bash
+  git clone "https://github.com/Yuvrajstack/alrIEEEna-2026-ml-solution.git"
+  ```
+
+### Install  Libraries
+
+```bash
+pip install pandas numpy scikit-learn lightgbm
+```
+
+### Open the Notebook
+
+ **finalnotebook-alreena.ipynb**
+
+### Run the Notebook
+
+ Run all cells in notebook
+
+### Generate Final Predictions
+
+ After running all cells it will be saved as
+ **FINAL.csv**
+
+ The submission file will in this format
+ **ID, CLASS**
 
 ---
 ## Authors
 
-**Yuvraj Kabadwal**  
-**Vandana Bhandari**
+ **Yuvraj Kabadwal**  
+ **Vandana Bhandari**
 
-B.Tech Computer Science Engineering
+ B.Tech Computer Science Engineering
