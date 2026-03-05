@@ -90,8 +90,8 @@ Model performance was evaluated using **F1 Score and Accuracy on cross-validatio
 
 **Final results**
 
-- **F1 Score ≈ 0.9874**
-- **Accuracy ≈ 0.9901**
+- **F1 Score ≈ 0.9881**
+- **Accuracy ≈ 0.9906**
 
 
 ---
